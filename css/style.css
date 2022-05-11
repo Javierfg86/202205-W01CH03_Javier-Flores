@@ -1,0 +1,29 @@
+.title {
+    font-family: "Nunito";
+}
+.subtitle {
+    font-family: "Nunito extrabold";
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav {
+    font-family: "Nunito";
+    flex-direction: column;
+}
+.hidden {
+    display: none;
+}
+.logo {
+    max-width: 50%;
+}
+.nobullets {
+    list-style-type: none;
+}
+.radius {
+    border-radius: 12%;
+    max-width: 90%;
+}
