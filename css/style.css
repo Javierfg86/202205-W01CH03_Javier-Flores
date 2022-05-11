@@ -1,29 +1,65 @@
 .title {
     font-family: "Nunito";
+    font-size: 15px;
 }
 .subtitle {
-    font-family: "Nunito extrabold";
+    font-family: "Nunito";
+    font-size: 30px;
 }
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 }
 .nav {
-    font-family: "Nunito";
     flex-direction: column;
 }
 .hidden {
     display: none;
 }
 .logo {
-    max-width: 50%;
+    max-width: 40%;
 }
 .nobullets {
     list-style-type: none;
 }
 .radius {
     border-radius: 12%;
-    max-width: 90%;
+    max-width: 350px;
+    min-height: 400px;
+    object-fit: none;
+}
+.ButtonBuy {
+    background-color: white;
+    border: 3px rgb(255, 106, 0) solid;
+    border-radius: 0px 20px 20px 20px;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    padding: 2px;
+}
+.ButtonAll {
+    background-color: rgb(255, 106, 0);
+    border-radius: 0px 20px 20px 20px;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    padding: 2px;
+}
+.container__all {
+    display: flex;
+    justify-content: flex-end;
+}
+.orange {
+    color: rgb(255, 106, 0);
+}
+.shadow {
+    -webkit-box-shadow: 0px 10px 13px -7px #cdc4c4,
+        5px 5px 15px 5px rgba(234, 234, 234, 0.03);
+    box-shadow: 0px 10px 13px -7px #cdc4c4,
+        5px 5px 15px 5px rgba(234, 234, 234, 0.03);
+}
+.box {
+    min-height: 100px;
 }
