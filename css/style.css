@@ -39,6 +39,16 @@
     text-align: center;
     padding: 2px;
 }
+
+.change:hover {
+    background-color: rgb(255, 106, 0) solid;
+    border: 3px rgb(255, 106, 0) solid;
+    border-radius: 0px 20px 20px 20px;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    padding: 2px;
+}
 .ButtonAll {
     background-color: rgb(255, 106, 0);
     border-radius: 0px 20px 20px 20px;
@@ -62,4 +72,37 @@
 }
 .box {
     min-height: 100px;
+}
+
+.div-imagen {
+    display: inline-block;
+    position: relative;
+    border-radius: 12%;
+    background-color: darkgrey;
+}
+
+.div-imagen > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding: 10px;
+    margin: 0;
+    font: 400;
+}
+
+.desvanecer:hover {
+    opacity: 0.3;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    -ms-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+.textimg:hover {
+    color: white;
+    font-family: "Nunito";
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
 }
